@@ -1,96 +1,106 @@
-# مشروع تحليل استدامة الأثر التدريبي لأكاديمية سدايا 
-## هاكاثون نيوتك – مسار تحليل البيانات
 
-## نبذة عن المشروع
-هذا المشروع تم تطويره ضمن هاكاثون نيوتك في مسار تحليل البيانات، ويهدف إلى تحليل استدامة نجاح الشركات من خلال قياس الأثر الحقيقي، والتمييز بين النجاح القائم على القيمة والنجاح الناتج عن التوسع الكمي فقط.
+# SDAIA Academy Training Impact Sustainability Analysis Project
 
-تم تطبيق التحليل عمليًا على بيانات أكاديمية سدايا كنموذج دراسي.
+## Nywtk Hackathon – Data Analysis Track
 
+## Project Overview
 
+This project was developed as part of the Nywtk Hackathon, Data Analysis Track. It aims to analyze the sustainability of company success by measuring real impact and distinguishing between value-driven success and success resulting only from quantitative expansion.
 
-## المشكلة
-تحقق العديد من الجهات التدريبية انتشارًا واسعًا وشهرة ملحوظة، إلا أن هذا الانتشار يطرح تساؤلات مهمة:
-- هل هذا النجاح مبني على أثر حقيقي؟
-- أم أنه نتيجة توسع مؤقت في عدد البرامج والمشاركين؟
-- وكيف يمكن ضمان استدامة النجاح دون تضخم تشغيلي أو زيادة غير فعّالة في الميزانيات؟
+The analysis was practically applied to SDAIA Academy data as a case study.
 
+## The Problem
 
+Many training organizations achieve wide reach and notable recognition, but this reach raises important questions:
 
-##  الهدف
-يهدف المشروع إلى:
-- تحليل بيانات الميزانية والأنشطة التدريبية
-- قياس كفاءة البرامج التدريبية باستخدام مؤشرات قائمة على البيانات
-- دعم اتخاذ قرارات مبنية على الأثر الحقيقي وليس الحجم فقط
+* Is this success based on real impact?
+* Or is it the result of temporary expansion in programs and participants?
+* How can sustainable success be ensured without operational inflation or ineffective budget increases?
 
+## Objective
 
+The project aims to:
 
-##  البيانات المستخدمة
-تم الاعتماد على مجموعتين رئيسيتين من البيانات:
+* Analyze budget and training activity data
+* Measure program efficiency using data-driven indicators
+* Support decision-making based on real impact, not just scale
 
-### 1️- بيانات الميزانية
-- الأعوام: 2021 – 2025  
-- تشمل:
-  - بنود الصرف
-  - الاعتماد الأصلي وبعد التعديل
-  - المنصرف ونسبة الصرف
+## Data Used
 
-### 2️- بيانات الأنشطة التدريبية
-- الأعوام: 2024 – 2025  
-- تشمل:
-  - اسم ونوع النشاط
-  - الفئة المستهدفة
-  - عدد المتخرجين
-  - الربع والسنة
+The analysis relied on two main datasets:
 
-> البيانات مستخدمة لأغراض تحليلية ضمن الهاكاثون.
+### 1️- Budget Data
 
+* Years: 2021 – 2025
+* Includes:
 
+  * Spending items
+  * Original and revised allocation
+  * Expenditure and spending ratio
 
-## منهجية التحليل
-تم تحليل البيانات لاستخلاص مؤشرات تقيس الأثر الحقيقي للبرامج التدريبية، من أبرزها:
+### 2️- Training Activity Data
 
-مؤشر كفاءة الأثر التدريبي
-يساعد هذا المؤشر على:
-- تقييم كفاءة البرامج
-- مقارنة الأداء عبر الزمن
-- دعم قرارات التوسع أو إعادة التصميم
+* Years: 2024 – 2025
+* Includes:
 
+  * Activity name and type
+  * Target audience
+  * Number of graduates
+  * Quarter and year
 
+> Data is used for analytical purposes within the hackathon.
 
-## الابتكار
-يتمثل الابتكار في تحويل مؤشرات الأداء من أدوات عرض إلى آليات دعم قرار تشغيلي، تُمكّن الجهات التدريبية من:
-- الحفاظ على الاستدامة
-- تحسين جودة البرامج
-- تعظيم الأثر دون الحاجة إلى زيادة الميزانية
+## Analysis Methodology
 
+Data was analyzed to extract indicators that measure the real impact of training programs, including:
 
+**Training Impact Efficiency Index**
+This indicator helps to:
 
-##  الأدوات والتقنيات
-- Python
-  - Pandas
-  - NumPy
-  - Matplotlib  
+* Evaluate program efficiency
+* Compare performance over time
+* Support decisions on expansion or redesign
 
-- Google Colab
+## Innovation
+
+The innovation lies in transforming performance indicators from display tools into operational decision-support mechanisms, enabling training organizations to:
+
+* Maintain sustainability
+* Improve program quality
+* Maximize impact without increasing budgets
+
+## Tools and Technologies
+
+* **Python**
+
+  * Pandas
+  * NumPy
+  * Matplotlib
+
+* **Google Colab**
  https://colab.research.google.com/drive/1XkHXS6nxhk870ARPsHgRI3MVdtD14LbW?usp=sharing
 
-- Power BI
-  لإنشاء لوحات معلومات تفاعلية وعرض النتائج بصريًا  
-  
+* **Power BI**
+  To create interactive dashboards and visually present results
+
+## Deliverables
+
+* Analysis of training program efficiency
+* Measurement of impact progression over time
+* Interactive dashboards
+* Data-driven recommendations
+
+## Conclusion
+
+This project demonstrates that the success of training organizations is not measured only by the number of programs or participants but by the extent of the impact achieved and their ability to sustain it through data-driven decisions.
+
+This project is presented for educational and analytical purposes as part of the Nywtk Hackathon.
 
 
-
-## المخرجات
-- تحليل كفاءة البرامج التدريبية
-- قياس تطور الأثر عبر الزمن
-- لوحات معلومات تفاعلية
-- توصيات قائمة على البيانات
+\
 
 
-
-
-## الخلاصة
-يبيّن هذا المشروع أن نجاح الجهات التدريبية لا يُقاس بعدد البرامج أو المشاركين فقط، بل بمدى الأثر الذي تحققه وقدرتها على استدامة هذا الأثر عبر قرارات مبنية على البيانات.
+.
 
 
 هذا المشروع مقدم لأغراض تعليمية وتحليلية ضمن هاكاثون نيوتك.
